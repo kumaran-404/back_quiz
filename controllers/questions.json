@@ -1,0 +1,985 @@
+[
+  {
+    "description": "Which one is the HTML document’s root tag?",
+    "answer": "d",
+    "tag": "easy",
+    "options": ["<head>", "<body>", "<title>", "<html>"]
+  },
+  {
+    "description": "Which of the following is correct about HTML?",
+    "answer": "b",
+    "tag": "easy",
+    "options": [
+      "HTML uses user defined tags",
+      "HTML uses tags defined within the language",
+      "Both A and B",
+      "None of the above"
+    ]
+  },
+  {
+    "description": "What is the difference between == and === operators in JavaScript?",
+    "answer": "a",
+    "tag": "easy",
+    "options": [
+      "== checks for value equality, while === checks for both value and type equality.",
+      "== checks for type equality, while === checks for both value and type equality.",
+      "== checks for value equality, while === checks for reference equality.",
+      "There is no difference between == and ===."
+    ]
+  },
+  {
+    "description": "What will be the output of the following code snippet?\nvar a = true + true + true * 3;\nconsole.print.log(a)",
+    "answer": "d",
+    "tag": "easy",
+    "options": ["3", "0", "5", "Error"]
+  },
+  {
+    "description": "What is the output of the following code snippet?\nprint(NaN === NaN);",
+    "answer": "b",
+    "tag": "easy",
+    "options": ["true", "false", "undefined", "Error"]
+  },
+  {
+    "description": "Which of the following is not a Javascript framework?",
+    "answer": "D",
+    "tag": "easy",
+    "options": ["Node", "Vue", "React", "Cassandra"]
+  },
+  {
+    "description": "What does … operator do in JS?",
+    "answer": "B",
+    "tag": "easy",
+    "options": [
+      "It is used to describe a datatype of undefined size",
+      "It is used to spread iterables to individual elements",
+      "No such operator exists",
+      "None of the above"
+    ]
+  },
+  {
+    "description": "What is the default method used by the fetch API if no method is specified?",
+    "answer": "A",
+    "tag": "easy",
+    "options": ["GET", "POST", "PUT", "DELETE"]
+  },
+  {
+    "description": "Which HTTP status code indicates that the requested resource has been permanently moved to a new location?",
+    "answer": "B",
+    "tag": "easy",
+    "options": ["200", "301", "404", "500"]
+  },
+  {
+    "description": "In which of the following areas, Node.js is perfect to use?",
+    "answer": "D",
+    "tag": "easy",
+    "options": [
+      "I/O bound Applications",
+      "Data Streaming Applications",
+      "Data Intensive Realtime Applications (DIRT)",
+      "All of the above"
+    ]
+  },
+  {
+    "description": "In a web development context, what does ORM stand for?",
+    "answer": "A",
+    "tag": "easy",
+    "options": [
+      "Object-Relational Mapping",
+      "Object-Resource Modeling",
+      "Object-Response Manipulation",
+      "Object-Relocation Management"
+    ]
+  },
+  {
+    "description": "Consider a web application that stores user information in a relational database with two tables: users and roles. The users table contains columns user_id, username, password, and role_id. The roles table contains columns role_id and role_name. Each user can have one role assigned to them.\nGiven this scenario, which SQL query would retrieve the usernames of users who have the role \"Admin\"?",
+    "answer": "C",
+    "tag": "easy",
+    "options": [
+      "SELECT username FROM users WHERE role_id = 1;",
+      "SELECT username FROM users WHERE role_name = 'Admin';",
+      "SELECT username FROM users JOIN roles ON users.role_id = roles.role_id WHERE roles.role_name = 'Admin';",
+      "SELECT username FROM users JOIN roles ON users.role_id = roles.role_id AND roles.role_name = 'Admin';"
+    ]
+  },
+  {
+    "description": "When integrating PHP and MySQL , which PHP function is commonly used to establish a connection to a MySQL database?",
+    "answer": "C",
+    "tag": "easy",
+    "options": [
+      "mysql_query()",
+      "connect_mysql()",
+      "mysqli_connect()",
+      "db_connect()"
+    ]
+  },
+  {
+    "description": "What is the correct syntax for creating an object in JavaScript?",
+    "answer": "A",
+    "tag": "easy",
+    "options": [
+      "var person = {name: \"John\", age: 30}",
+      "var person = new Object()",
+      "var person = new Object(\"name\", \"John\", \"age\", 30)",
+      "var person = Object(\"name\", \"John\", \"age\", 30)"
+    ]
+  },
+  {
+    "description": "What is the correct syntax for a JavaScript switch statement?",
+    "answer": "B",
+    "tag": "easy",
+    "options": [
+      "switch (value) {case expression: ...}",
+      "switch (expression) {case value1: ...}",
+      "switch (expression) {value1: ...}",
+      "switch (value) {expression: ...}"
+    ]
+  },
+  {
+    "description": "What is the purpose of database sharding?",
+    "answer": "B",
+    "tag": "easy",
+    "options": [
+      "To improve query performance",
+      "To distribute data across multiple servers",
+      "To enforce referential integrity",
+      "To store large amounts of data"
+    ]
+  },
+  {
+    "description": "Which of the following is a stateful protocol?",
+    "answer": "B",
+    "tag": "easy",
+    "options": ["HTTP", "FTP", "SMTP", "All of the above"]
+  },
+  {
+    "description": "Which function defines a linear gradient as a CSS image?",
+    "answer": "B",
+    "tag": "easy",
+    "options": ["gradient()", "linear-gradient()", "grayscale()", "image()"]
+  },
+  {
+    "description": "Which CSS Property sets the stacking order of positioned elements?",
+    "answer": "B",
+    "tag": "easy",
+    "options": [
+      "y-index",
+      "z-index",
+      "x-index",
+      "all of the mentioned"
+    ]
+  },
+  {
+    "description": "Which of the following is not the property of the CSS box model?",
+    "answer": "B",
+    "tag": "easy",
+    "options": ["margin", "color", "width", "height"]
+  },
+  {
+    "description": "How does Back End Web Development interact with Front End Web Development?",
+    "answer": "c",
+    "tag": "easy",
+    "options": [
+      "Back End and Front End development are entirely independent and do not interact.",
+      "Back End provides the design elements, and Front End handles the functionality.",
+      "Back End and Front End work together to create a complete web application, with Back End handling server-side functionality and data, and Front End managing the user interface and interactions.",
+      "Back End and Front End are the same thing and can be used interchangeably."
+    ]
+  },
+  {
+    "description": "What is the purpose of using JSON (JavaScript Object Notation) in Back End Web Development?",
+    "answer": "c",
+    "tag": "easy",
+    "options": [
+      "To display visual content on the website",
+      "To manage the website’s layout and design",
+      "To store and exchange data between the client and server in a lightweight and readable format",
+      "To optimize website performance for mobile devices"
+    ]
+  },
+  {
+    "description": "Which of the following is NOT a common type of database used in Back End Web Development?",
+    "answer": "d",
+    "tag": "easy",
+    "options": ["MySQL", "PostgreSQL", "MongoDB", "JavaScript"]
+  },
+  {
+    "description": "Which one is correct?\nLeft join and Left outer join returns same result\nLeft join  and Left outer join returns records which are table dependent\nThere is no such thing as left outer join\nNone of above",
+    "answer": "a",
+    "tag": "easy",
+    "options": [
+      "Left join and Left outer join returns same result",
+      "Left join  and Left outer join returns records which are table dependent",
+      "There is no such thing as left outer join",
+      "None of above"
+    ]
+  },
+  {
+    "description": "Which tag is used to create a hyperlink in HTML?",
+    "answer": "a",
+    "tag": "easy",
+    "options": ["<a>", "<link>", "<href>", "<hyperlink>"]
+  },
+  {
+    "description": "How do you add comments in JavaScript?",
+    "answer": "c",
+    "tag": "easy",
+    "options": [
+      "<!-- comment -->",
+      "/* comment */",
+      "// comment",
+      "<!--- comment --->"
+    ]
+  },
+  {
+    "description": "What is the purpose of the <canvas> element in HTML5?",
+    "answer": "c",
+    "tag": "easy",
+    "options": [
+      "To display images",
+      "To embed videos",
+      "To draw graphics and animations dynamically",
+      "To create forms"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"alt\" attribute in the <img> tag?",
+    "answer": "b",
+    "tag": "easy",
+    "options": [
+      "It specifies the alignment of the image",
+      "It provides alternative text for the image",
+      "It defines the size of the image",
+      "It sets the border around the image"
+    ]
+  },
+  {
+    "description": "Which of the following is NOT a valid data type in JavaScript?",
+    "answer": "d",
+    "tag": "easy",
+    "options": ["string", "boolean", "Boolean", "char"]
+  },
+  {
+    "description": "Which of the following selectors targets all <p> elements with the class \"intro\"?",
+    "answer": "a",
+    "tag": "easy",
+    "options": ["p.intro", ".p.intro", "#intro.p", "p#intro"]
+  },
+  {
+    "description": "What does npm stand for?",
+    "answer": "a",
+    "tag": "easy",
+    "options": [
+      "Node Package Manager",
+      "Node Project Manager",
+      "Node Programming Module",
+      "Node Package Module"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"package.json\" file in a Node.js project?",
+    "answer": "a",
+    "tag": "easy",
+    "options": [
+      "It contains metadata about the project and its dependencies",
+      "It is used to define the project's HTML structure",
+      "It stores the project's database configuration",
+      "It specifies the project's server settings"
+    ]
+  },
+  {
+    "description": "What does the \"nodemon\" package do in a Node.js project?",
+    "answer": "a",
+    "tag": "easy",
+    "options": [
+      "It is used to monitor changes in the project's files and automatically restart the server",
+      "It is used to deploy the project to a production server",
+      "It is used to generate documentation for the project",
+      "It is used to test the project's APIs"
+    ]
+  },
+  {
+    "description": "Which npm command is used to update all dependencies in a Node.js project?",
+    "answer": "b",
+    "tag": "easy",
+    "options": ["npm update", "npm upgrade", "npm install --update", "npm install --upgrade"]
+  },
+  {
+    "description": "What is the purpose of the CSS \"float\" property?",
+    "answer": "d",
+    "tag": "easy",
+    "options": [
+      "It specifies how elements should be positioned",
+      "It controls the alignment of text within an element",
+      "It determines whether an element should be visible or hidden",
+      "It allows an element to be placed to the left or right of its container"
+    ]
+  },
+  {
+    "description": "How would you center an element both vertically and horizontally within its parent container?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "text-align: center; line-height: 100vh;",
+      "position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);",
+      "display: flex; justify-content: center; align-items: center;",
+      "margin: 0 auto; vertical-align: middle;"
+    ]
+  },
+  {
+    "description": "What will be the output of the following code snippet?\nvar a = \"Scaler\";\nvar result = a.substring(2, 4);\ndocument.write(result);",
+    "answer": "b",
+    "tag": "medium",
+    "options": ["ale", "al", "cal", "undefined"]
+  },
+  {
+    "description": "What is the output of the following code?\nfunction fun(a, b, c = 3) {\n  return a + b + c;\n}\n\nconsole.log(fun(1, 2)); // ?\nconsole.log(fun(1, 2, 4)); // ?\nconsole.log(fun(1, 2, undefined)); // ?",
+    "answer": "a",
+    "tag": "medium",
+    "options": ["6, 7, 6", "3, 7, 6", "6, 7, 3", "3, 7, 3"]
+  },
+  {
+    "description": "Which of the following is correct?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "Maximum storage capacity of Cookies is 16 kb.",
+      "Cookies is piece of data stored in web browsers and sent in each request.",
+      "Cookies are used for state management in http.",
+      "There is only one type of cookie, which is called permanent cookie."
+    ]
+  },
+  {
+    "description": "Which of the following statements is FALSE about weak entity set in DBMS?",
+    "answer": "d",
+    "tag": "medium",
+    "options": [
+      "Weak entities can be deleted automatically when their strong entity is deleted.",
+      "Weak entity set avoids the data duplication and consequent possible inconsistencies caused by duplicating the key of the strong entity.",
+      "A weak entity set has no primary keys unless attributes of the strong entity set on which it depends are included",
+      "Tuples in a weak entity set are not partitioned according to their relationship with tuples in a strong entity set."
+    ]
+  },
+  {
+    "description": "Find the output of the following JavaScript code\nvar count1;\nconsole.log(count1, count2)\nvar count2;",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "ReferenceError: count2 is not defined",
+      "null, undefined",
+      "undefined, undefined",
+      "undefined, null"
+    ]
+  },
+  {
+    "description": "What will be the output of console.log(+'2' + 3)?",
+    "answer": "b",
+    "tag": "medium",
+    "options": ["5", "\"23\"", "23", "NaN"]
+  },
+  {
+    "description": "What does the !important keyword do in CSS?",
+    "answer": "b",
+    "tag": "medium",
+    "options": [
+      "Declares an element as important for SEO",
+      "Overrides specificity and applies the CSS rule regardless of other rules",
+      "It makes that respective styles as lowest priority compared to other styles.",
+      "Declares a style as essential for page rendering"
+    ]
+  },
+  {
+    "description": "Which of the following is NOT a common function of a web server in Back End Web Development?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "Handling HTTP requests from client-side interfaces",
+      "Serving web pages and files to users’ browsers",
+      "Creating animations and visual effects on the website",
+      "Managing session data for user authentication"
+    ]
+  },
+  {
+    "description": "What is the purpose of an MVC (Model-View-Controller) architecture in Back End Web Development?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "To create visually appealing designs for the website",
+      "To handle user authentication and registration",
+      "To separate the application’s data (Model), user interface (View), and control logic (Controller) for improved code organization and maintainability",
+      "To optimize website performance for mobile devices"
+    ]
+  },
+  {
+    "description": "What is the difference between let and var in JavaScript?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "let is block-scoped, while var is function-scoped",
+      "let is function-scoped, while var is block-scoped",
+      "let is global-scoped, while var is function-scoped",
+      "There is no difference between let and var"
+    ]
+  },
+  {
+    "description": "A __________ is a special kind of a store procedure that executes in response to certain action on the table like insertion, deletion or updation of data",
+    "answer": "b",
+    "tag": "medium",
+    "options": [
+      "Procedures",
+      "Triggers",
+      "Functions",
+      "None of the mentioned"
+    ]
+  },
+  {
+    "description": "Given two tables R1 (x, y) and R2(y, z) with 50 and 30 number of tuples respectively. Find the correct statement for number of tuples in the output of natural join between tables R1 and R2 i.e. R1 * R2? (* - Natural Join)",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "0 because natural join is not possible",
+      "1500 is max and also minimum",
+      "1500 is max and minimum can be zero",
+      "Minimum can never be zero"
+    ]
+  },
+  {
+    "description": "Consider the following HTML, CSS and answer the question.\n\n<div class=\"parent\">\n    <p class=\"child\">This is line one. <p class=\"inner\" style=\"background-color:yellow\">this is next sentence</p></p>\n    <p class=\"child\">This is line two</p>\n    <p class=\"child\">This is line three</p>\n</div>\n\nCSS:\n.parent > .child {\n    background-color: \"red\";\n}\n\n.inner {\n    background-color: \"blue\";\n}\n\n.child > .inner, div {\n    background-color: \"green\";\n}\n\nBackground color of inner class is?",
+    "answer": "d",
+    "tag": "medium",
+    "options": [
+      "red",
+      "blue",
+      "green",
+      "yellow"
+    ]
+  },
+  {
+    "description": "Which one is correct?\n1. div ~ a\n2. div + a\n\nWhich one is correct?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "1 will select all link elements immediately after it and 2 will select a link which is immediately after it.",
+      "1 will select a link element immediately after it and 2 will select all links which are immediately after it.",
+      "Both are same, gives flexibility to use any",
+      "None of above"
+    ]
+  },
+  {
+    "description": "In which one of the following is correct about usage of where clause?",
+    "answer": "d",
+    "tag": "medium",
+    "options": [
+      "Delete can not use where clause",
+      "Drop can use where clause",
+      "Truncate can use where clause but Drop can not use where clause",
+      "Both Truncate and Drop can not make use of where clause"
+    ]
+  },
+  {
+    "description": "Which of the following is NOT a valid HTTP method?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "PUT",
+      "DELETE",
+      "UPDATE",
+      "OPTIONS"
+    ]
+  },
+  {
+    "description": "What is the default port number for Node.js server?",
+    "answer": "b",
+    "tag": "medium",
+    "options": [
+      "80",
+      "3000",
+      "8080",
+      "8888"
+    ]
+  },
+  {
+    "description": "What is the purpose of a media query in CSS?",
+    "answer": "b",
+    "tag": "medium",
+    "options": [
+      "To apply styles based on the browser's media type",
+      "To apply styles based on the device's screen resolution",
+      "To apply styles based on the user's preferred color scheme",
+      "To apply styles based on the user's location"
+    ]
+  },
+  {
+    "description": "What is the difference between PUT and POST HTTP methods?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "PUT is used for creating new resources, while POST is used for updating existing resources",
+      "PUT is idempotent, while POST is not",
+      "PUT is used for updating existing resources, while POST is used for creating new resources",
+      "There is no difference between PUT and POST"
+    ]
+  },
+  {
+    "description": "What does CORS stand for in web development?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "Cross-Origin Resource Sharing",
+      "Cross-Origin Request Security",
+      "Cross-Origin Resource Scripting",
+      "Cross-Origin Redirect System"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"data-\" attribute in HTML5?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "To define custom attributes for elements that can be accessed via JavaScript",
+      "To specify the character encoding of the document",
+      "To declare the version of HTML being used",
+      "To define the structure of the document"
+    ]
+  },
+  {
+    "description": "In MongoDB, what is a document?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "A collection of fields in a table",
+      "A set of related records",
+      "A JSON-like data structure used to store data",
+      "A query used to retrieve data from the database"
+    ]
+  },
+  {
+    "description": "Which of the following MongoDB operators is used to update documents in a collection?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "$update",
+      "$modify",
+      "$set",
+      "$change"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"CASCADE\" option in a foreign key constraint in a relational database?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "To automatically delete or update related rows when a primary key is deleted or updated",
+      "To restrict the deletion or updating of related rows when a primary key is deleted or updated",
+      "To enforce the uniqueness of values in a column or set of columns",
+      "To specify the default value for a column when no value is provided"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"dotenv\" package in a Node.js application?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "To parse and manipulate environment variables",
+      "To encrypt sensitive data stored in a database",
+      "To manage user authentication and authorization",
+      "To generate secure random numbers"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"normalize.css\" file in a web application?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "To provide a reset stylesheet that ensures consistent rendering across different browsers.",
+      "To apply predefined styles to HTML elements for consistent appearance.",
+      "To optimize the performance of CSS animations and transitions.",
+      "To create responsive layouts using CSS Grid or Flexbox."
+    ]
+  },
+  {
+    "description": "In the context of APIs, what does CRUD stand for?",
+    "answer": "b",
+    "tag": "medium",
+    "options": [
+      "Create, Read, Update, Deploy",
+      "Create, Read, Update, Delete",
+      "Configure, Read, Update, Deploy",
+      "Configure, Read, Update, Delete"
+    ]
+  },
+  {
+    "description": "Which of the following is NOT a valid content type for API requests and responses?",
+    "answer": "b",
+    "tag": "medium",
+    "options": [
+      "application/json",
+      "text/html",
+      "application/xml",
+      "multipart/form-data"
+    ]
+  },
+  {
+    "description": "What does REST stand for in the context of APIs?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "Representational State Transfer",
+      "Remote Execution and Service Transmission",
+      "Resource Endpoint and Service Transmission",
+      "Remote Endpoint and State Transfer"
+    ]
+  },
+  {
+    "description": "What is the primary purpose of query parameters in API requests?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "To specify the HTTP method used in the request",
+      "To include additional data with the request body",
+      "To filter, sort, or paginate data retrieved from the server",
+      "To authenticate the user making the request"
+    ]
+  },
+  {
+    "description": "What is the purpose of API versioning?",
+    "answer": "b",
+    "tag": "medium",
+    "options": [
+      "To track the usage statistics of API endpoints",
+      "To ensure backward compatibility with existing client applications",
+      "To optimize the performance of API endpoints",
+      "To encrypt the data being transmitted between the client and server"
+    ]
+  },
+  {
+    "description": "Which MongoDB query operator is used to specify criteria in a query?",
+    "answer": "c",
+    "tag": "medium",
+    "options": [
+      "$filter",
+      "$criteria",
+      "$match",
+      "$query"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"db.collection.watch()\" method in MongoDB?",
+    "answer": "b",
+    "tag": "medium",
+    "options": [
+      "To monitor changes to a collection and perform specified actions",
+      "To create a new change stream for a collection",
+      "To watch for updates to a collection view",
+      "To retrieve documents from a collection based on a query"
+    ]
+  },
+  {
+    "description": "What is the purpose of the route decorator in Flask?",
+    "answer": "a",
+    "tag": "medium",
+    "options": [
+      "To define URL routes for different views or endpoints in a Flask application",
+      "To create custom decorators for route authentication",
+      "To specify the type of HTTP request accepted by a route",
+      "To add additional metadata to route functions"
+    ]
+  },
+  {
+    "description": "How does the <bdo> element work?",
+    "answer": "d",
+    "tag": "hard",
+    "options": [
+      "changes direction of the ltr text",
+      "override the direction of the rtl text",
+      "stops writing in current direction of text",
+      "override the text direction"
+    ]
+  },
+  {
+    "description": "You want to create a responsive layout where a sidebar floats to the left on larger screens but becomes a stacked element on smaller screens. Which CSS technique would you use to achieve this?",
+    "answer": "d",
+    "tag": "hard",
+    "options": [
+      "Media queries",
+      "Flexbox",
+      "Grid",
+      "All of the above"
+    ]
+  },
+  {
+    "description": "Which of the following is the correct way to send a POST request with JSON data using the fetch API?",
+    "answer": "a",
+    "tag": "hard",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ]
+  },
+  {
+    "description": "Consider the relation \"enrolled(student, course)\" in which (student, course) is the primary key, and the relation \"paid(student, amount)\" where student is the primary key. Assume no null values and no foreign keys or integrity constraints. Given the following four queries:",
+    "answer": "b",
+    "tag": "hard",
+    "options": [
+      "All queries return identical row sets for any database",
+      "Query2 and Query4 return identical row sets for all databases but there exist databases for which Query1 and Query2 return different row sets.",
+      "There exist databases for which Query3 returns strictly fewer rows than Query2",
+      "There exist databases for which Query4 will encounter an integrity violation at runtime."
+    ]
+  },
+  {
+    "description": "Which of the following is NOT an authentication method?",
+    "answer": "d",
+    "tag": "hard",
+    "options": [
+      "OAuth 2.0",
+      "JWT (JSON Web Tokens)",
+      "SAML (Security Assertion Markup Language)",
+      "XSS (Cross-Site Scripting)"
+    ]
+  },
+  {
+    "description": "In HTML, what is the purpose of the \"defer\" attribute when including a script?",
+    "answer": "b",
+    "tag": "hard",
+    "options": [
+      "It specifies that the script should be executed asynchronously",
+      "It specifies that the script should be executed after the document has been parsed",
+      "It specifies that the script should be executed immediately",
+      "It specifies that the script should be downloaded in parallel with other resources"
+    ]
+  },
+  {
+    "description": "What does the \"use strict\" directive do in JavaScript?",
+    "answer": "a",
+    "tag": "hard",
+    "options": [
+      "Enforces strict mode, which catches common coding errors and restricts certain features",
+      "Allows developers to use strict equality checks (===) instead of loose equality checks (==)",
+      "Forces the use of strict data typing in variables",
+      "Enables strict security measures to prevent XSS attacks"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"localStorage\" object in JavaScript?",
+    "answer": "d",
+    "tag": "hard",
+    "options": [
+      "To store session-specific data that persists across page reloads",
+      "To store data in cookies for later retrieval",
+      "To store data temporarily during a single session",
+      "To store data on the client-side that persists even after the browser is closed"
+    ]
+  },
+  {
+    "description": "What does the following CSS selector target?\n > div:not(.class-name)",
+    "answer": "b",
+    "tag": "hard",
+    "options": [
+      "All <div> elements with the class \"class-name\"",
+      "All <div> elements without the class \"class-name\"",
+      "All <div> elements with any class",
+      "All <div> elements with a class other than \"class-name\""
+    ]
+  },
+  {
+    "description": "What will be the output of the following JavaScript code snippet?\n> console.log(0.1 + 0.2 === 0.3);",
+    "answer": "b",
+    "tag": "hard",
+    "options": [
+      "true",
+      "false",
+      "NaN",
+      "SyntaxError"
+    ]
+  },
+  {
+    "description": "What is the purpose of the $lookup stage in MongoDB aggregation pipeline?",
+    "answer": "a",
+    "tag": "hard",
+    "options": [
+      "It performs a left outer join between documents from two different collections.",
+      "It adds new fields to documents based on expressions or conditions.",
+      "It groups documents by a specified field and calculates aggregate values for each group.",
+      "It sorts documents based on specified criteria."
+    ]
+  },
+  {
+    "description": "Which of the following is NOT a valid MongoDB aggregation pipeline stage?",
+    "answer": "c",
+    "tag": "hard",
+    "options": [
+      "$match",
+      "$project",
+      "$find",
+      "$group"
+    ]
+  },
+  {
+    "description": "Which of the following SQL functions is used to return the current date and time?",
+    "answer": "b",
+    "tag": "hard",
+    "options": [
+      "NOW()",
+      "CURRENT_TIMESTAMP()",
+      "GETDATE()",
+      "SYSDATE"
+    ]
+  },
+  {
+    "description": "Which of the following is true about a SQL subquery?",
+    "answer": "a",
+    "tag": "hard",
+    "options": [
+      "A subquery must always be enclosed within parentheses.",
+      "A subquery cannot be used in conjunction with an ORDER BY clause.",
+      "A subquery cannot return more than one column in its result set.",
+      "A subquery cannot be used in the WHERE clause of a SELECT statement."
+    ]
+  },
+  {
+    "description": "What is the purpose of the SQL TRIGGER?",
+    "answer": "c",
+    "tag": "hard",
+    "options": [
+      "It allows the database administrator to perform administrative tasks.",
+      "It specifies the order in which rows are retrieved from a table.",
+      "It automatically executes a specified action when a certain event occurs in the database.",
+      "It creates a temporary table that stores the results of a complex query."
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"cluster\" module in Node.js?",
+    "answer": "a",
+    "tag": "hard",
+    "options": [
+      "To create child processes that can share server ports.",
+      "To handle HTTP requests in a multi-threaded environment.",
+      "To manage asynchronous operations in Node.js applications.",
+      "To encrypt and decrypt data using SSL/TLS protocols."
+    ]
+  },
+  {
+    "description": "Which of the following methods is used to handle asynchronous operations in Node.js?",
+    "answer": "c",
+    "tag": "hard",
+    "options": [
+      "sync()",
+      "async()",
+      "await()",
+      "defer()"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"eventEmitter\" module in Node.js?",
+    "answer": "c",
+    "tag": "hard",
+    "options": [
+      "To emit events and handle asynchronous operations.",
+      "To manage child processes in a Node.js application.",
+      "To create custom events and handle event-driven programming.",
+      "To generate random numbers and perform cryptographic operations."
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"npmrc\" file in a Node.js project?",
+    "answer": "d",
+    "tag": "hard",
+    "options": [
+      "To store the source code of the Node.js application.",
+      "To configure project settings such as dependencies, scripts, and metadata.",
+      "To define the layout and styling of HTML elements.",
+      "To customize npm behavior by setting configuration options."
+    ]
+  },
+  {
+    "description": "Which of the following statements about semantic versioning (SemVer) is true?",
+    "answer": "c",
+    "tag": "hard",
+    "options": [
+      "Semantic versioning is not supported in Node.js projects.",
+      "Semantic versioning is a versioning scheme that only allows major version updates.",
+      "Semantic versioning is a versioning scheme that follows the format MAJOR.MINOR.PATCH.",
+      "Semantic versioning is a versioning scheme that allows arbitrary version numbers."
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"ngFor\" directive in Angular?",
+    "answer": "c",
+    "tag": "hard",
+    "options": [
+      "To create a new instance of a component.",
+      "To define routes for navigation within an Angular application.",
+      "To iterate over a collection and generate HTML elements.",
+      "To handle user input events in Angular forms."
+    ]
+  },
+  {
+    "description": "Which of the following statements about React components is true?",
+    "answer": "c",
+    "tag": "hard",
+    "options": [
+      "React components can only be defined using functional components.",
+      "React components can have multiple template files.",
+      "React components communicate with each other using props and state.",
+      "React components are initialized using the \"ng-init\" directive."
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"transform\" property in CSS?",
+    "answer": "b",
+    "tag": "hard",
+    "options": [
+      "To change the position of an element relative to its containing element.",
+      "To apply visual effects such as rotations, scaling, and skewing to an element.",
+      "To specify the layout of grid items within a CSS grid container.",
+      "To control the order in which flex items appear within a flex container."
+    ]
+  },
+  {
+    "description": "Which HTML element is used to group together related form elements?",
+    "answer": "b",
+    "tag": "hard",
+    "options": [
+      "<group>",
+      "<fieldset>",
+      "<formgroup>",
+      "<formset>"
+    ]
+  },
+  {
+    "description": "Which HTML element is used to create a container for multiple image sources, allowing the browser to choose the most appropriate one?",
+    "answer": "d",
+    "tag": "hard",
+    "options": [
+      "<source>",
+      "<imgset>",
+      "<imageset>",
+      "<picture>"
+    ]
+  },
+  {
+    "description": "What is the purpose of the \"ETag\" header in HTTP responses?",
+    "answer": "c",
+    "tag": "hard",
+    "options": [
+      "To specify the character encoding of the response body.",
+      "To indicate the language of the content within the response.",
+      "To provide a unique identifier for the current version of a resource.",
+      "To control caching behavior in the client's browser."
+    ]
+  },
+  {
+    "description": "Which HTTP header is used to specify the acceptable media types for the response?",
+    "answer": "a",
+    "tag": "hard",
+    "options": [
+      "Accept",
+      "Content-Type",
+      "Content-Length",
+      "Cache-Control"
+    ]
+  }
+]
+
